@@ -30,11 +30,11 @@ Vue.use(eview)
 
 # needs imports way1
 import Vue from 'vue'
-import { atable, aform } from 'eview'
-Vue.use(atable);
+import { etable, eform } from 'eview'
+Vue.use(etable);
 
 # needs imports way2
 import Vue from 'vue'
-import { atable, aform } from 'eview'
-Vue.component('atable', atable);
+import { etable, eform } from 'eview'
+Vue.component('etable', etable);
 ```
