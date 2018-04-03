@@ -1,10 +1,10 @@
 {
   "name": "eview",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A high quality  UI components Library with Vue.js by matisha001",
   "author": "caoyankui <matisha001@163.com>",
   "private": false,
-  "main": "dist/main.js",
+  "main": "dist/eview.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8081 --config build/webpack.dev.config.js",
     "dist:dev": "webpack --config build/webpack.dist.dev.config.js",

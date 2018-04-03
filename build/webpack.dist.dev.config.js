@@ -19,8 +19,8 @@ module.exports = merge(webpackBaseConfig, {
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/dist/',
-        filename: 'aview.js',
-        library: 'aview',
+        filename: 'eview.js',
+        library: 'eview',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
